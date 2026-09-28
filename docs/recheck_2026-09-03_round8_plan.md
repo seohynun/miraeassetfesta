@@ -1,6 +1,6 @@
 # 8라운드 수리 — 간섭 지도 (2026-09-03)
 
-> 입력: `docs/recheck_2026-09-03_round7.md` §③(재검 17항) + `docs/kg_structure_probe_round5_2026-09-03.md` §③(KG 부류 A~P).
+> 입력: `docs/archive/rounds/recheck_2026-09-03_round7.md` §③(재검 17항) + `docs/archive/rounds/kg_structure_probe_round5_2026-09-03.md` §③(KG 부류 A~P).
 > 🔴 경계: `ontology/**` · `scripts/build_ontology.py` **무변경**. 전부 `src/runtime/pipeline.py` 안에서 닫는다.
 > 동결선 `tests/test_snapshot_round6.py` — 값 계열(`rows`·`assembler`·`answer_head`·`route`·`nodes`) 불변이 조건.
 > `where` 문자열만 바뀌면 근거를 적고 갱신(7R 선례).

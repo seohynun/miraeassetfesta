@@ -71,4 +71,4 @@ python scripts/gen_data_dictionary.py funds      # 하나만
 | 2차 전환이 무엇을 바꿨나 | [`../DATA_V2_2026-08-24_impact.md`](../DATA_V2_2026-08-24_impact.md) |
 | 외부 수집 카탈로그·출처 규칙 | [`../EXTERNAL_DATA.md`](../EXTERNAL_DATA.md) |
 | 답변 규칙 상위법 (주최 Q&A) | [`../../PROJECT.md`](../../PROJECT.md) §2 · [`../QNA_REVIEW_2026-08-25.md`](../QNA_REVIEW_2026-08-25.md) §3-1 |
-| 앞으로 할 일 | [`../WORK_PLAN_2026-08-26.md`](../WORK_PLAN_2026-08-26.md) |
+| 앞으로 할 일 | [`../WORK_PLAN_2026-08-26.md`](../archive/meetings/WORK_PLAN_2026-08-26.md) |

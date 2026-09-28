@@ -1,4 +1,4 @@
-# ✅ 리드 확답 — ETF 미해결 6건 (2026-08-31 · [ask_lead_2026-08-31.md](ask_lead_2026-08-31.md) 답글)
+# ✅ 리드 확답 — ETF 미해결 6건 (2026-08-31 · [ask_lead_2026-08-31.md](archive/meetings/ask_lead_2026-08-31.md) 답글)
 
 > 6건 전부 확답함. §1·§3·§4·§5·§6 은 **반영까지 완료** — 검증(dupkeys 0 · build_ontology 오류 0 ·
 > gold 111/111 · pytest 163) 통과, `--db-only` 배포 완료. SQL 생성 경로 추적 바로 들어가면 됨.

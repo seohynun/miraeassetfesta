@@ -103,6 +103,7 @@ pytest -q            # 1,610건 — DB 가 있어야 하는 항목은 없으면 
 | `eval/` | 평가 문항(`.jsonl`)과 실행기 |
 | `tests/` | 회귀 테스트 |
 | `deploy/` | Caddy 설정과 배포 스크립트 |
+| `docs/` | 설계·데이터·검증 기록 문서 — 주제별 목차는 [`docs/README.md`](docs/README.md) |
 
 ---
 

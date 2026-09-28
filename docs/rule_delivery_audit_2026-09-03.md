@@ -112,4 +112,4 @@
 - 가드 목록·docstring: `src/runtime/pipeline.py` `ensure_*` (펀드 결합 30개 목록은 9/3 리드 세션 기록)
 - paired 도구: `eval/run_paired.py` · 결과 예: `eval/paired_result.json`
 - 선행연구 근거: `docs/research/notes/semantic-layer-benchmark.md`(SL-1 문서 크기·5범주) · `2510.02394_domain-knowledge-retrieval-text2sql.md`(DK-1 형식·선별) · `2606.03363_entsql-enterprise-grounding.md`(ENT-1 짧은 evidence > 긴 문서)
-- 관측 장치: `docs/HANDOFF_2026-08-30.md` §1-9 (grounding 로그·`/chat/ask`)
+- 관측 장치: `docs/archive/handoff/HANDOFF_2026-08-30.md` §1-9 (grounding 로그·`/chat/ask`)
