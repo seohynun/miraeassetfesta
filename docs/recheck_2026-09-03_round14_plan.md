@@ -1,7 +1,7 @@
 # 14라운드 수리 간섭 지도 — 2026-09-03
 
-출처 §③ 합본: `docs/recheck_2026-09-03_round13.md`(10항) · `docs/kg_structure_probe_round8_2026-09-03.md`(18항) ·
-`docs/gold_probe_2026-09-03_g4.md`(24항).
+출처 §③ 합본: `docs/archive/rounds/recheck_2026-09-03_round13.md`(10항) · `docs/archive/rounds/kg_structure_probe_round8_2026-09-03.md`(18항) ·
+`docs/archive/rounds/gold_probe_2026-09-03_g4.md`(24항).
 
 기준선(수리 전 실측): `pytest -q` 406 passed · `eval/run_gold_check.py` 147/147 · 동결선 `tests/test_snapshot_round6.py` 통과.
 

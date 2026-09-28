@@ -1,6 +1,15 @@
 # 문서 목차
 
-`docs/` 폴더의 문서 328개를 주제별로 분류한 목차입니다. 파일은 옮기거나 지우지 않았고, 이 목차만 추가했습니다.
+`docs/` 폴더의 문서 328개를 주제별로 분류한 목차입니다.
+
+날짜별 과정 기록과 스냅샷 폴더는 `docs/archive/`로 옮겨 두었습니다. 지운 문서는 없고, 옮긴 문서를 가리키던 링크는 새 경로로 고쳤습니다.
+
+| 보관 폴더 | 내용 | 문서 수 |
+|---|---|---|
+| `archive/handoff/` | 날짜별 인수인계·진행 상황 | 19 |
+| `archive/meetings/` | 회의록·작업 계획·리드 문의·배포 요청 | 14 |
+| `archive/rounds/` | 검증 라운드별 점검·수리 기록 | 29 |
+| `archive/핵심문서모음/` | 주요 문서 스냅샷 | 35 |
 
 프로젝트 개요는 [README](../README.md), 전체 기록은 [PROJECT.md](../PROJECT.md)를 먼저 보세요.
 
@@ -20,6 +29,36 @@
 | 10. 인수인계·계획·회의 (과정) | 32 |
 | 11. 선행연구·설계 스펙 | 21 |
 | 12. 핵심문서모음 (스냅샷) | 35 |
+
+## 옮기지 않은 과정 기록
+
+아래 과정 기록 25개는 코드나 평가 데이터가 파일명을 언급하므로 `docs/` 바로 아래에 그대로 두었습니다.
+
+- `ask_lead_2026-08-31_reply.md` (`src/runtime/pipeline.py`)
+- `bond_hard5_fix_plan_2026-09-05.md` (`tests/test_hard5_bond.py`)
+- `bonds_2026-09-06_round1_plan.md` (`tests/test_round33_bonds_r1.py`)
+- `bonds_latency_analysis_2026-09-06.md` (`tests/test_round33_bonds_r1.py`)
+- `funds_defects_2026-09-04.md` (`eval/render_funds_report.py`)
+- `funds_ontology_fix_plan_2026-09-04.md` (`tests/test_round18_fund_rules.py`)
+- `funds_repairs_2026-09-04.md` (`eval/render_funds_report.py`)
+- `funds_test_result_2026-09-04.md` (`eval/render_funds_report.py`, `tests/test_round18_fund_rules.py`)
+- `kg_structure_probe_round1_2026-09-02.md` (`tests/test_guard_v2.py`)
+- `kg_structure_probe_round2_2026-09-02.md` (`tests/test_guard_v2.py`)
+- `kg_structure_probe_round3_2026-09-02.md` (`tests/test_snapshot_round6.py`)
+- `recheck_2026-09-02_round1.md` (`eval/probe_recheck_2026-09-02_r2.txt`, `tests/test_guard_v2.py`)
+- `recheck_2026-09-02_round1_review.md` (`tests/test_guard_v2.py`)
+- `recheck_2026-09-02_round2.md` (`eval/probe_recheck_2026-09-02_r3.txt`, `tests/test_guard_v2.py`)
+- `recheck_2026-09-02_round3.md` (`eval/probe_recheck_2026-09-02_r4.txt`)
+- `recheck_2026-09-02_round4.md` (`eval/probe_recheck_2026-09-02_r5.txt`, `tests/test_guard_v2.py`)
+- `recheck_2026-09-02_round5.md` (`tests/test_snapshot_round6.py`)
+- `recheck_2026-09-02_round6_plan.md` (`tests/test_guard_v2.py`, `tests/test_snapshot_round6.py`)
+- `recheck_2026-09-02_round7_plan.md` (`tests/test_round7_repairs.py`)
+- `recheck_2026-09-03_round10_plan.md` (`tests/test_round10_repairs.py`)
+- `recheck_2026-09-03_round12_plan.md` (`tests/test_round12_repairs.py`)
+- `recheck_2026-09-03_round14_plan.md` (`tests/test_round14_repairs.py`)
+- `recheck_2026-09-03_round16_plan.md` (`tests/test_round16_repairs.py`)
+- `recheck_2026-09-03_round8_plan.md` (`tests/test_round8_repairs.py`)
+- `recheck_loop_2026-09-02.md` (`eval/render_probe_md.py`)
 
 ## 파일을 옮길 때 주의할 점
 
@@ -52,10 +91,15 @@
 | [DEPLOY_CHECKLIST.md](<DEPLOY_CHECKLIST.md>) | ☀️ 8/16 아침 — 배포 작업 체크리스트 |
 | [INFRA.md](<INFRA.md>) | 🏗️ 서버 인프라 구성 설명서 |
 | [NCP_CONSOLE.md](<NCP_CONSOLE.md>) | 🖥️ NCP 콘솔 — 서버 개설 클릭 순서 |
-| [redeploy_request_2026-08-31.md](<redeploy_request_2026-08-31.md>) | 🚀 재배포 요청 — ETF 브랜치 (2026-08-31 · 병철 → 리드) |
-| [redeploy_request_2026-09-01.md](<redeploy_request_2026-09-01.md>) | 🚀 재배포 요청 #2 — 공식 예시 문항 수리분 (2026-09-01 · 병철 → 리드) |
-| [배포요청_종목지시자_되묻기전제_2026-09-06.md](<배포요청_종목지시자_되묻기전제_2026-09-06.md>) | 배포 요청 — 종목 지시자·되묻기 전제 (2026-09-06) |
-| [배포요청_채권QA라운드1_2026-09-06.md](<배포요청_채권QA라운드1_2026-09-06.md>) | 배포 요청 — 채권 QA 라운드1 수리 (2026-09-06) |
+
+**`archive/meetings/`**
+
+| 문서 | 제목 |
+|---|---|
+| [redeploy_request_2026-08-31.md](<archive/meetings/redeploy_request_2026-08-31.md>) | 🚀 재배포 요청 — ETF 브랜치 (2026-08-31 · 병철 → 리드) |
+| [redeploy_request_2026-09-01.md](<archive/meetings/redeploy_request_2026-09-01.md>) | 🚀 재배포 요청 #2 — 공식 예시 문항 수리분 (2026-09-01 · 병철 → 리드) |
+| [배포요청_종목지시자_되묻기전제_2026-09-06.md](<archive/meetings/배포요청_종목지시자_되묻기전제_2026-09-06.md>) | 배포 요청 — 종목 지시자·되묻기 전제 (2026-09-06) |
+| [배포요청_채권QA라운드1_2026-09-06.md](<archive/meetings/배포요청_채권QA라운드1_2026-09-06.md>) | 배포 요청 — 채권 QA 라운드1 수리 (2026-09-06) |
 
 **`bench/`**
 
@@ -82,7 +126,12 @@
 | [additional_bonds.md](<additional_bonds.md>) | 국내채권 추가 검토 — 영구채 미탐 규명 · 특수구조 구체화 |
 | [notice_2026-08-24_impact.md](<notice_2026-08-24_impact.md>) | 📢 주최 공지(디스코드) 대조 — 우리 규칙과 맞는가 (2026-08-30 · 병철) |
 | [spec_audit_2026-08-24.md](<spec_audit_2026-08-24.md>) | 📋 제출 규격 대조 감사 — 리드 확인 요청 (이병철, 2026-08-24) |
-| [web_collection_handoff_2026-08-18.md](<web_collection_handoff_2026-08-18.md>) | 🔁 인수인계 — 미래에셋 웹 수집 · 코드북 완성 · DB 적재 (2026-08-18) |
+
+**`archive/handoff/`**
+
+| 문서 | 제목 |
+|---|---|
+| [web_collection_handoff_2026-08-18.md](<archive/handoff/web_collection_handoff_2026-08-18.md>) | 🔁 인수인계 — 미래에셋 웹 수집 · 코드북 완성 · DB 적재 (2026-08-18) |
 
 **`data_dictionary/`**
 
@@ -288,7 +337,6 @@
 | [eval_gold_verify_etf_2026-08-26.md](<eval_gold_verify_etf_2026-08-26.md>) | 🥇 gold 63문항 검증 — ETF 담당분 46문항 (이병철, 2026-08-26) |
 | [gold_defects_2026-09-03.md](<gold_defects_2026-09-03.md>) | gold 결함으로 **판정 보류**하는 문항 — 2026-09-03 |
 | [gold_review_2026-09-01.md](<gold_review_2026-09-01.md>) | 🔍 gold 판단 검토 시트 — 사람 눈이 필요한 13건 (2026-09-01 · 병철 작성) |
-| [qna_discord_2026-08-31.md](<qna_discord_2026-08-31.md>) | 📮 주최 디스코드 Q&A 대조 — 신규분 (2026-08-31 · 병철) |
 | [question_design_public_funds_2026-08-31.md](<question_design_public_funds_2026-08-31.md>) | 공모펀드 질문 설계 — 카테고리 지도와 신규 문항 초안 (2026-08-31) |
 | [review_codebook_2026-08-25.md](<review_codebook_2026-08-25.md>) | 🧾 운용사 코드북 웹 검수 — 2026-08-25 |
 | [review_index_edges_2026-08-25.md](<review_index_edges_2026-08-25.md>) | 🔎 검수 B — Index→Region / AssetClass 규칙 edge 검수 (2026-08-25) |
@@ -297,6 +345,12 @@
 | [review_reply_etf_2026-08-21.md](<review_reply_etf_2026-08-21.md>) | 💬 검토 답글 — ETF E1~E7 (이병철, 2026-08-21) |
 | [review_request_2026-08-20.md](<review_request_2026-08-20.md>) | 🙋 팀 검토 요청 — 반영 완료된 규칙 전수 검토 (채권 · ETF · 국내펀드) 2026-08-20 |
 | [review_yaml_pending_2026-08-25.md](<review_yaml_pending_2026-08-25.md>) | 검수 C — enums yaml "추정 · 미확정 · 보류 · workshop" 항목 판정 (2026-08-25) |
+
+**`archive/meetings/`**
+
+| 문서 | 제목 |
+|---|---|
+| [qna_discord_2026-08-31.md](<archive/meetings/qna_discord_2026-08-31.md>) | 📮 주최 디스코드 Q&A 대조 — 신규분 (2026-08-31 · 병철) |
 
 **`review_2026-08-26/`**
 
@@ -331,102 +385,117 @@
 
 ## 9. 검증 라운드 기록 (과정)
 
-질의응답 품질을 라운드별로 점검하고 고친 기록입니다. 일부는 테스트 코드가 직접 읽으므로 위치를 옮기면 안 됩니다.
+질의응답 품질을 라운드별로 점검하고 고친 기록입니다. 코드가 언급하는 문서는 `docs/` 바로 아래에, 나머지는 `archive/rounds/`에 있습니다.
+
+**`archive/rounds/`**
+
+| 문서 | 제목 |
+|---|---|
+| [bonds_2026-09-06_round1.md](<archive/rounds/bonds_2026-09-06_round1.md>) | 국내채권 QA 라운드 1 — 2026-09-06 (서버 db17e07 · 로컬 98414b3) |
+| [exp_port_guards_2026-09-06.md](<archive/rounds/exp_port_guards_2026-09-06.md>) | 펀드 결정층 기법의 ETF·채권 이식 실험 — 2026-09-06 |
+| [funds_core34_2026-09-06.md](<archive/rounds/funds_core34_2026-09-06.md>) | 공모펀드 핵심 34문항 — 프리즈 전 최종 점검 (2026-09-06) |
+| [funds_domain_axes_2026-09-04.md](<archive/rounds/funds_domain_axes_2026-09-04.md>) | 공모펀드 도메인 축 신설 문항 13건 — 기대 답변 · 2026-09-04 |
+| [funds_final_review_2026-09-06.md](<archive/rounds/funds_final_review_2026-09-06.md>) | 공모펀드 도메인 — 프리즈 최종 검토 (2026-09-06) |
+| [funds_structural_causes_2026-09-04.md](<archive/rounds/funds_structural_causes_2026-09-04.md>) | 실패 25건의 구조 원인 — 온톨로지·KG 층위 진단 (2026-09-04 2차 기준) |
+| [funds_submit_check20_2026-09-06.md](<archive/rounds/funds_submit_check20_2026-09-06.md>) | 공모펀드 제출 전 필수 점검 20문항 — 모범 답안·채점표 (2026-09-06) |
+| [gold_probe_2026-09-03_g1.md](<archive/rounds/gold_probe_2026-09-03_g1.md>) | G1 라운드 — gold 초회 실측 채점 (2026-09-03) |
+| [gold_probe_2026-09-03_g2.md](<archive/rounds/gold_probe_2026-09-03_g2.md>) | G2 (9R) — gold·주최샘플·교차 계열 재채점 (2026-09-03) |
+| [gold_probe_2026-09-03_g3.md](<archive/rounds/gold_probe_2026-09-03_g3.md>) | gold·주최샘플·교차환각 11R 판정 — 2026-09-03 (g3) |
+| [gold_probe_2026-09-03_g4.md](<archive/rounds/gold_probe_2026-09-03_g4.md>) | gold·주최샘플·교차환각 13R 판정 — 2026-09-03 (g4) |
+| [gold_probe_2026-09-03_g5.md](<archive/rounds/gold_probe_2026-09-03_g5.md>) | gold·주최샘플·교차환각 15R 판정 — 2026-09-03 (g5) |
+| [kg_structure_loop_2026-09-02.md](<archive/rounds/kg_structure_loop_2026-09-02.md>) | KG 구조 검증 실측 기록 — 2026-09-02 (35 + 형제 X25) |
+| [kg_structure_probe_design_2026-09-02.md](<archive/rounds/kg_structure_probe_design_2026-09-02.md>) | 온톨로지·KG 구조 검증 문항 설계 — 2026-09-02 |
+| [kg_structure_probe_round4_2026-09-02.md](<archive/rounds/kg_structure_probe_round4_2026-09-02.md>) | 온톨로지·KG 구조 검증 85문항 — 4라운드(6R) 서버 실측(07b2ef6) 채점 + 수렴 판정 — 2026-09-02 |
+| [kg_structure_probe_round5_2026-09-03.md](<archive/rounds/kg_structure_probe_round5_2026-09-03.md>) | KG 구조 계열 7라운드 채점 — 2026-09-03 |
+| [kg_structure_probe_round6_2026-09-03.md](<archive/rounds/kg_structure_probe_round6_2026-09-03.md>) | KG 구조 계열 9라운드 채점 (2026-09-03) — 심사관 B |
+| [kg_structure_probe_round7_2026-09-03.md](<archive/rounds/kg_structure_probe_round7_2026-09-03.md>) | KG 구조 계열 11라운드 판정 — 2026-09-03 |
+| [kg_structure_probe_round8_2026-09-03.md](<archive/rounds/kg_structure_probe_round8_2026-09-03.md>) | KG 구조 계열 8라운드 판정 (13R probe) — 2026-09-03 |
+| [kg_structure_probe_round9_2026-09-03.md](<archive/rounds/kg_structure_probe_round9_2026-09-03.md>) | KG 구조 계열 9라운드 판정 (15R probe) — 2026-09-03 |
+| [recheck_2026-09-02_round6.md](<archive/rounds/recheck_2026-09-02_round6.md>) | 재검 2026-09-02 라운드 6 — 6R 수리 배포(07b2ef6) 후 재검 계열 77문항 채점 + 프리즈 판정 (에이전트 B) |
+| [recheck_2026-09-03_round11.md](<archive/rounds/recheck_2026-09-03_round11.md>) | 재검 계열 11라운드 채점 — 2026-09-03 |
+| [recheck_2026-09-03_round13.md](<archive/rounds/recheck_2026-09-03_round13.md>) | 재검 계열 13라운드 채점 — 2026-09-03 |
+| [recheck_2026-09-03_round15.md](<archive/rounds/recheck_2026-09-03_round15.md>) | 재검 계열 15라운드 채점 — 2026-09-03 |
+| [recheck_2026-09-03_round17.md](<archive/rounds/recheck_2026-09-03_round17.md>) | 17R 서버 실측 — enforce 슬롯 P0 3종 전환 후 (2026-09-03) |
+| [recheck_2026-09-03_round7.md](<archive/rounds/recheck_2026-09-03_round7.md>) | 재검 2026-09-03 라운드 7 — 7R 수리 배포(`aaf7864`) 후 재검 계열 93문항 채점 (에이전트 B) |
+| [recheck_2026-09-03_round9.md](<archive/rounds/recheck_2026-09-03_round9.md>) | 재검 계열 9라운드 채점 — 2026-09-03 |
+| [채권_수리계획_종목지시자_2026-09-06.md](<archive/rounds/채권_수리계획_종목지시자_2026-09-06.md>) | 채권 수리 계획 — 종목 지시자 · 되묻기 전제 (사고 #97~#100) |
+| [채권_온톨로지_전수조사_2026-09-05.md](<archive/rounds/채권_온톨로지_전수조사_2026-09-05.md>) | 채권 온톨로지·SQL 전수조사 (2026-09-05) |
 
 | 문서 | 제목 |
 |---|---|
 | [bond_hard5_fix_plan_2026-09-05.md](<bond_hard5_fix_plan_2026-09-05.md>) | 채권 난이도 상 5문항 — 서버 실측 판정과 수리 계획 (2026-09-05) |
-| [bonds_2026-09-06_round1.md](<bonds_2026-09-06_round1.md>) | 국내채권 QA 라운드 1 — 2026-09-06 (서버 db17e07 · 로컬 98414b3) |
 | [bonds_2026-09-06_round1_plan.md](<bonds_2026-09-06_round1_plan.md>) | 채권 QA r1 수리 계획 — 간섭 지도 (에이전트 A · 2026-09-06 · 브랜치 qa/bonds-r1) |
 | [bonds_latency_analysis_2026-09-06.md](<bonds_latency_analysis_2026-09-06.md>) | 채권 QA r1 응답 시간 분석 — 원인 확정과 줄이는 방법 (2026-09-06) |
-| [exp_port_guards_2026-09-06.md](<exp_port_guards_2026-09-06.md>) | 펀드 결정층 기법의 ETF·채권 이식 실험 — 2026-09-06 |
-| [funds_core34_2026-09-06.md](<funds_core34_2026-09-06.md>) | 공모펀드 핵심 34문항 — 프리즈 전 최종 점검 (2026-09-06) |
 | [funds_defects_2026-09-04.md](<funds_defects_2026-09-04.md>) | 🔧 결함 분류 — 5차(최종) 기준 |
-| [funds_domain_axes_2026-09-04.md](<funds_domain_axes_2026-09-04.md>) | 공모펀드 도메인 축 신설 문항 13건 — 기대 답변 · 2026-09-04 |
-| [funds_final_review_2026-09-06.md](<funds_final_review_2026-09-06.md>) | 공모펀드 도메인 — 프리즈 최종 검토 (2026-09-06) |
 | [funds_ontology_fix_plan_2026-09-04.md](<funds_ontology_fix_plan_2026-09-04.md>) | 공모펀드 78문항 → 최종 온톨로지 수정 계획 — 2026-09-04 |
 | [funds_repairs_2026-09-04.md](<funds_repairs_2026-09-04.md>) | 🔧 수리 기록 — 온톨로지·KG 층 (전수조사 진행분) |
-| [funds_structural_causes_2026-09-04.md](<funds_structural_causes_2026-09-04.md>) | 실패 25건의 구조 원인 — 온톨로지·KG 층위 진단 (2026-09-04 2차 기준) |
-| [funds_submit_check20_2026-09-06.md](<funds_submit_check20_2026-09-06.md>) | 공모펀드 제출 전 필수 점검 20문항 — 모범 답안·채점표 (2026-09-06) |
 | [funds_test_result_2026-09-04.md](<funds_test_result_2026-09-04.md>) (`eval/render_funds_report.py` 생성물) | 공모펀드 78문항 테스트 결과 — 2026-09-04 |
-| [gold_probe_2026-09-03_g1.md](<gold_probe_2026-09-03_g1.md>) | G1 라운드 — gold 초회 실측 채점 (2026-09-03) |
-| [gold_probe_2026-09-03_g2.md](<gold_probe_2026-09-03_g2.md>) | G2 (9R) — gold·주최샘플·교차 계열 재채점 (2026-09-03) |
-| [gold_probe_2026-09-03_g3.md](<gold_probe_2026-09-03_g3.md>) | gold·주최샘플·교차환각 11R 판정 — 2026-09-03 (g3) |
-| [gold_probe_2026-09-03_g4.md](<gold_probe_2026-09-03_g4.md>) | gold·주최샘플·교차환각 13R 판정 — 2026-09-03 (g4) |
-| [gold_probe_2026-09-03_g5.md](<gold_probe_2026-09-03_g5.md>) | gold·주최샘플·교차환각 15R 판정 — 2026-09-03 (g5) |
-| [kg_structure_loop_2026-09-02.md](<kg_structure_loop_2026-09-02.md>) | KG 구조 검증 실측 기록 — 2026-09-02 (35 + 형제 X25) |
-| [kg_structure_probe_design_2026-09-02.md](<kg_structure_probe_design_2026-09-02.md>) | 온톨로지·KG 구조 검증 문항 설계 — 2026-09-02 |
 | [kg_structure_probe_round1_2026-09-02.md](<kg_structure_probe_round1_2026-09-02.md>) | 온톨로지·KG 구조 검증 35문항 — 서버 기준선(31e72ef) 채점 1R — 2026-09-02 |
 | [kg_structure_probe_round2_2026-09-02.md](<kg_structure_probe_round2_2026-09-02.md>) | 온톨로지·KG 구조 검증 35문항 — 2라운드 서버 실측(6bad723) 채점 — 2026-09-02 |
 | [kg_structure_probe_round3_2026-09-02.md](<kg_structure_probe_round3_2026-09-02.md>) (테스트가 읽음) | 온톨로지·KG 구조 검증 60문항 — 3라운드 서버 실측(1e0e641) 채점 + 수렴 판정 — 2026-09-02 |
-| [kg_structure_probe_round4_2026-09-02.md](<kg_structure_probe_round4_2026-09-02.md>) | 온톨로지·KG 구조 검증 85문항 — 4라운드(6R) 서버 실측(07b2ef6) 채점 + 수렴 판정 — 2026-09-02 |
-| [kg_structure_probe_round5_2026-09-03.md](<kg_structure_probe_round5_2026-09-03.md>) | KG 구조 계열 7라운드 채점 — 2026-09-03 |
-| [kg_structure_probe_round6_2026-09-03.md](<kg_structure_probe_round6_2026-09-03.md>) | KG 구조 계열 9라운드 채점 (2026-09-03) — 심사관 B |
-| [kg_structure_probe_round7_2026-09-03.md](<kg_structure_probe_round7_2026-09-03.md>) | KG 구조 계열 11라운드 판정 — 2026-09-03 |
-| [kg_structure_probe_round8_2026-09-03.md](<kg_structure_probe_round8_2026-09-03.md>) | KG 구조 계열 8라운드 판정 (13R probe) — 2026-09-03 |
-| [kg_structure_probe_round9_2026-09-03.md](<kg_structure_probe_round9_2026-09-03.md>) | KG 구조 계열 9라운드 판정 (15R probe) — 2026-09-03 |
 | [recheck_2026-09-02_round1.md](<recheck_2026-09-02_round1.md>) | 재검 2026-09-02 라운드 1 — HANDOFF §1 P1 7문항 채점 (에이전트 B) |
 | [recheck_2026-09-02_round1_review.md](<recheck_2026-09-02_round1_review.md>) | 재검 2026-09-02 라운드 1 — A 수리 코드 리뷰 (에이전트 B · 배포 전) |
 | [recheck_2026-09-02_round2.md](<recheck_2026-09-02_round2.md>) | 재검 2026-09-02 라운드 2 — 수리 배포(31e72ef) 후 서버 실측 19문항 채점 (에이전트 B) |
 | [recheck_2026-09-02_round3.md](<recheck_2026-09-02_round3.md>) | 재검 2026-09-02 라운드 3 — 수리 배포(e56767d) 후 서버 실측 33문항 채점 (에이전트 B) |
 | [recheck_2026-09-02_round4.md](<recheck_2026-09-02_round4.md>) | 재검 2026-09-02 라운드 4 — 수리 배포(6bad723) 후 서버 실측 재검 계열 49문항 채점 (에이전트 B) |
 | [recheck_2026-09-02_round5.md](<recheck_2026-09-02_round5.md>) (테스트가 읽음) | 재검 2026-09-02 라운드 5 — 수리 배포(1e0e641) 후 서버 실측 재검 계열 61문항 채점 + 수렴 판정 (에이전트 B) |
-| [recheck_2026-09-02_round6.md](<recheck_2026-09-02_round6.md>) | 재검 2026-09-02 라운드 6 — 6R 수리 배포(07b2ef6) 후 재검 계열 77문항 채점 + 프리즈 판정 (에이전트 B) |
 | [recheck_2026-09-02_round6_plan.md](<recheck_2026-09-02_round6_plan.md>) | 6라운드 수리 계획 — 간섭 지도 먼저 (에이전트 A · 2026-09-02) |
 | [recheck_2026-09-02_round7_plan.md](<recheck_2026-09-02_round7_plan.md>) | 7R 수리 간섭 지도 — 재검 §③(M′·R′·S′·P′·B-4′) + KG §③(G1~G7·F3) |
 | [recheck_2026-09-03_round10_plan.md](<recheck_2026-09-03_round10_plan.md>) | 10R 수리 간섭 지도 — 2026-09-03 |
-| [recheck_2026-09-03_round11.md](<recheck_2026-09-03_round11.md>) | 재검 계열 11라운드 채점 — 2026-09-03 |
 | [recheck_2026-09-03_round12_plan.md](<recheck_2026-09-03_round12_plan.md>) | 12라운드 수리 간섭 지도 — 2026-09-03 |
-| [recheck_2026-09-03_round13.md](<recheck_2026-09-03_round13.md>) | 재검 계열 13라운드 채점 — 2026-09-03 |
 | [recheck_2026-09-03_round14_plan.md](<recheck_2026-09-03_round14_plan.md>) | 14라운드 수리 간섭 지도 — 2026-09-03 |
-| [recheck_2026-09-03_round15.md](<recheck_2026-09-03_round15.md>) | 재검 계열 15라운드 채점 — 2026-09-03 |
 | [recheck_2026-09-03_round16_plan.md](<recheck_2026-09-03_round16_plan.md>) | 16R 수리 계획 — 간섭 지도 (2026-09-03) |
-| [recheck_2026-09-03_round17.md](<recheck_2026-09-03_round17.md>) | 17R 서버 실측 — enforce 슬롯 P0 3종 전환 후 (2026-09-03) |
-| [recheck_2026-09-03_round7.md](<recheck_2026-09-03_round7.md>) | 재검 2026-09-03 라운드 7 — 7R 수리 배포(`aaf7864`) 후 재검 계열 93문항 채점 (에이전트 B) |
 | [recheck_2026-09-03_round8_plan.md](<recheck_2026-09-03_round8_plan.md>) | 8라운드 수리 — 간섭 지도 (2026-09-03) |
-| [recheck_2026-09-03_round9.md](<recheck_2026-09-03_round9.md>) | 재검 계열 9라운드 채점 — 2026-09-03 |
 | [recheck_loop_2026-09-02.md](<recheck_loop_2026-09-02.md>) (`eval/render_probe_md.py` 생성물) | 재검 루프 실측 기록 — 2026-09-02 (원 7 + 형제 12/14/16/12) |
-| [채권_수리계획_종목지시자_2026-09-06.md](<채권_수리계획_종목지시자_2026-09-06.md>) | 채권 수리 계획 — 종목 지시자 · 되묻기 전제 (사고 #97~#100) |
-| [채권_온톨로지_전수조사_2026-09-05.md](<채권_온톨로지_전수조사_2026-09-05.md>) | 채권 온톨로지·SQL 전수조사 (2026-09-05) |
 
 ## 10. 인수인계·계획·회의 (과정)
 
-날짜별 인수인계, 진행 상황, 작업 계획, 회의록입니다.
+날짜별 인수인계, 진행 상황, 작업 계획, 회의록입니다. 대부분 `archive/handoff/`와 `archive/meetings/`에 있습니다.
 
 | 문서 | 제목 |
 |---|---|
 | [EXPERIMENT_LOOP.md](<EXPERIMENT_LOOP.md>) | 🔁 실험 루프 — 챗봇으로 관찰하고 온톨로지를 고친다 |
-| [HANDOFF_2026-08-18.md](<HANDOFF_2026-08-18.md>) | 📦 인수인계 — 2026-08-18 (jeonghyeon 세션) |
-| [HANDOFF_2026-08-20.md](<HANDOFF_2026-08-20.md>) | 🤝 세션 인수인계 — 2026-08-20 (외부 수집 완료 · 팀 검토 착수) |
-| [HANDOFF_2026-08-25.md](<HANDOFF_2026-08-25.md>) | 🤝 세션 인수인계 — 2026-08-25 (2차 데이터 전환 · KG 구축 · 검수 완료) |
-| [HANDOFF_2026-08-27.md](<HANDOFF_2026-08-27.md>) | 🤝 세션 인수인계 — 2026-08-27 (챗봇 가동 · 브랜치 통합 · 서버 실배포) |
-| [HANDOFF_2026-08-30.md](<HANDOFF_2026-08-30.md>) | 🤝 세션 인수인계 — 2026-08-30 (펀드 식별자 결측 축 정비 · ETF 브랜치 병합) |
-| [HANDOFF_2026-08-31.md](<HANDOFF_2026-08-31.md>) | 🤝 세션 인수인계 — 2026-08-31 (KG 후손 탐색 · 펀드 규칙 정비 · 3도메인 삼각 대조) |
-| [HANDOFF_2026-09-01.md](<HANDOFF_2026-09-01.md>) | 🤝 세션 인수인계 — 2026-09-01 (병렬 4세션 통합) |
-| [HANDOFF_2026-09-02.md](<HANDOFF_2026-09-02.md>) | 🤝 세션 인수인계 — 2026-09-02 (펀드 채점 루프 완주 + 결정층 수리 18종) |
-| [HANDOFF_2026-09-02_pm.md](<HANDOFF_2026-09-02_pm.md>) | 🤝 세션 인수인계 — 2026-09-02 오후 (A↔B 재검 루프 5라운드 + KG 구조 검증 3라운드 + 팀원 전부 merge·배포) |
-| [HANDOFF_2026-09-03_proposal.md](<HANDOFF_2026-09-03_proposal.md>) | 🤝 세션 인수인계 — 2026-09-03 제안서 트랙 (제출물 정리 → 목차·분담 → 도메인 템플릿 → 폴더 신설) |
-| [HANDOFF_2026-09-03_qa_loop.md](<HANDOFF_2026-09-03_qa_loop.md>) | 🤝 인계 — 공모펀드 QA 루프 (2026-09-03) |
-| [HANDOFF_2026-09-03_review_proposal.md](<HANDOFF_2026-09-03_review_proposal.md>) | 🤝 인수인계 — 코드 검토 · 보고서 역할 (2026-09-03 저녁) |
-| [HANDOFF_2026-09-04_runtime.md](<HANDOFF_2026-09-04_runtime.md>) | 인수인계 — 런타임 트랙 (규칙 전달 감사 → enforce 슬롯 → 17R) · 2026-09-04 |
-| [HANDOFF_2026-09-06_funds.md](<HANDOFF_2026-09-06_funds.md>) | 인수인계 — 공모펀드 트랙 · 2026-09-04 ~ 09-06 (프리즈) |
-| [HANDOFF_ETF_2026-08-29.md](<HANDOFF_ETF_2026-08-29.md>) | 📌 ETF 트랙 기준선 — 현재 상태 한 장 요약 (2026-08-29) |
 | [NEXT_STEPS.md](<NEXT_STEPS.md>) | 🎯 다음 작업 지시서 — 온톨로지 워크샵까지 (팀 배포용) |
-| [OUT_OF_BAND_CONTEXT_2026-08-29.md](<OUT_OF_BAND_CONTEXT_2026-08-29.md>) | 📎 저장소 밖 맥락 — 대화·PDF·디스코드·이미지로만 전달된 정보 |
 | [PENDING_DECISIONS_ETF.md](<PENDING_DECISIONS_ETF.md>) | ⏸ 보류된 결정 — ETF 트랙 (상의 대기) |
-| [PLAN_2026-08-29.md](<PLAN_2026-08-29.md>) | 🗓️ 잔여 8일 구현 계획 — 2026-08-29 (D-8) |
-| [PROGRESS_2026-08-18.md](<PROGRESS_2026-08-18.md>) | 📆 진행상황 — 2026-08-18 미래에셋 웹 수집 사이클 |
-| [PROGRESS_2026-08-20.md](<PROGRESS_2026-08-20.md>) | 📓 작업일지 — 2026-08-20 |
 | [TEAM_WORKFLOW.md](<TEAM_WORKFLOW.md>) | 👥 팀 실험 → 수정 → 반영 (팀원용) |
-| [WORK_PLAN_2026-08-26.md](<WORK_PLAN_2026-08-26.md>) | 🧭 작업 계획서 — 2026-08-26 |
-| [ask_lead_2026-08-28.md](<ask_lead_2026-08-28.md>) | 🙋 리드 확인 요청 — ETF 검토 완료 보고 + 확답 필요 4건 (이병철, 2026-08-28) |
-| [ask_lead_2026-08-31.md](<ask_lead_2026-08-31.md>) | 🙋 리드 확인 요청 — ETF 미해결 6건 (이병철, 2026-08-31) |
-| [ask_lead_2026-08-31_reply.md](<ask_lead_2026-08-31_reply.md>) | ✅ 리드 확답 — ETF 미해결 6건 (2026-08-31 · ask_lead_2026-08-31.md (ask_lead_2026-08-31.md) 답글) |
-| [handoff_funds_runtime_2026-09-05.md](<handoff_funds_runtime_2026-09-05.md>) | 인계 — 공모펀드 런타임 트랙 (18R) · 2026-09-05 |
-| [meeting_2026-08-29.md](<meeting_2026-08-29.md>) | 🗣 회의 기록 — 2026-08-29 (온라인) |
-| [meeting_agenda_2026-08-26.md](<meeting_agenda_2026-08-26.md>) | 🗳️ 회의 안건 — 2026-08-26 (D-11) · HCX 플래너 연결 · 제안서 온톨로지 설계 절 |
-| [workshop_agenda_2026-08-18.md](<workshop_agenda_2026-08-18.md>) | 🗳️ 워크샵 안건 통합 — 2026-08-18 기준 |
-| [클로드정리_2026-08-30.md](<클로드정리_2026-08-30.md>) | 🔁 클로드 정리 — 2026-08-29 ~ 08-30 (채권 담당 seohyun) |
+| [ask_lead_2026-08-31_reply.md](<ask_lead_2026-08-31_reply.md>) | ✅ 리드 확답 — ETF 미해결 6건 (2026-08-31 · ask_lead_2026-08-31.md (archive/meetings/ask_lead_2026- |
+
+**`archive/handoff/`**
+
+| 문서 | 제목 |
+|---|---|
+| [HANDOFF_2026-08-18.md](<archive/handoff/HANDOFF_2026-08-18.md>) | 📦 인수인계 — 2026-08-18 (jeonghyeon 세션) |
+| [HANDOFF_2026-08-20.md](<archive/handoff/HANDOFF_2026-08-20.md>) | 🤝 세션 인수인계 — 2026-08-20 (외부 수집 완료 · 팀 검토 착수) |
+| [HANDOFF_2026-08-25.md](<archive/handoff/HANDOFF_2026-08-25.md>) | 🤝 세션 인수인계 — 2026-08-25 (2차 데이터 전환 · KG 구축 · 검수 완료) |
+| [HANDOFF_2026-08-27.md](<archive/handoff/HANDOFF_2026-08-27.md>) | 🤝 세션 인수인계 — 2026-08-27 (챗봇 가동 · 브랜치 통합 · 서버 실배포) |
+| [HANDOFF_2026-08-30.md](<archive/handoff/HANDOFF_2026-08-30.md>) | 🤝 세션 인수인계 — 2026-08-30 (펀드 식별자 결측 축 정비 · ETF 브랜치 병합) |
+| [HANDOFF_2026-08-31.md](<archive/handoff/HANDOFF_2026-08-31.md>) | 🤝 세션 인수인계 — 2026-08-31 (KG 후손 탐색 · 펀드 규칙 정비 · 3도메인 삼각 대조) |
+| [HANDOFF_2026-09-01.md](<archive/handoff/HANDOFF_2026-09-01.md>) | 🤝 세션 인수인계 — 2026-09-01 (병렬 4세션 통합) |
+| [HANDOFF_2026-09-02.md](<archive/handoff/HANDOFF_2026-09-02.md>) | 🤝 세션 인수인계 — 2026-09-02 (펀드 채점 루프 완주 + 결정층 수리 18종) |
+| [HANDOFF_2026-09-02_pm.md](<archive/handoff/HANDOFF_2026-09-02_pm.md>) | 🤝 세션 인수인계 — 2026-09-02 오후 (A↔B 재검 루프 5라운드 + KG 구조 검증 3라운드 + 팀원 전부 merge·배포) |
+| [HANDOFF_2026-09-03_proposal.md](<archive/handoff/HANDOFF_2026-09-03_proposal.md>) | 🤝 세션 인수인계 — 2026-09-03 제안서 트랙 (제출물 정리 → 목차·분담 → 도메인 템플릿 → 폴더 신설) |
+| [HANDOFF_2026-09-03_qa_loop.md](<archive/handoff/HANDOFF_2026-09-03_qa_loop.md>) | 🤝 인계 — 공모펀드 QA 루프 (2026-09-03) |
+| [HANDOFF_2026-09-03_review_proposal.md](<archive/handoff/HANDOFF_2026-09-03_review_proposal.md>) | 🤝 인수인계 — 코드 검토 · 보고서 역할 (2026-09-03 저녁) |
+| [HANDOFF_2026-09-04_runtime.md](<archive/handoff/HANDOFF_2026-09-04_runtime.md>) | 인수인계 — 런타임 트랙 (규칙 전달 감사 → enforce 슬롯 → 17R) · 2026-09-04 |
+| [HANDOFF_2026-09-06_funds.md](<archive/handoff/HANDOFF_2026-09-06_funds.md>) | 인수인계 — 공모펀드 트랙 · 2026-09-04 ~ 09-06 (프리즈) |
+| [HANDOFF_ETF_2026-08-29.md](<archive/handoff/HANDOFF_ETF_2026-08-29.md>) | 📌 ETF 트랙 기준선 — 현재 상태 한 장 요약 (2026-08-29) |
+| [PROGRESS_2026-08-18.md](<archive/handoff/PROGRESS_2026-08-18.md>) | 📆 진행상황 — 2026-08-18 미래에셋 웹 수집 사이클 |
+| [PROGRESS_2026-08-20.md](<archive/handoff/PROGRESS_2026-08-20.md>) | 📓 작업일지 — 2026-08-20 |
+| [handoff_funds_runtime_2026-09-05.md](<archive/handoff/handoff_funds_runtime_2026-09-05.md>) | 인계 — 공모펀드 런타임 트랙 (18R) · 2026-09-05 |
+
+**`archive/meetings/`**
+
+| 문서 | 제목 |
+|---|---|
+| [OUT_OF_BAND_CONTEXT_2026-08-29.md](<archive/meetings/OUT_OF_BAND_CONTEXT_2026-08-29.md>) | 📎 저장소 밖 맥락 — 대화·PDF·디스코드·이미지로만 전달된 정보 |
+| [PLAN_2026-08-29.md](<archive/meetings/PLAN_2026-08-29.md>) | 🗓️ 잔여 8일 구현 계획 — 2026-08-29 (D-8) |
+| [WORK_PLAN_2026-08-26.md](<archive/meetings/WORK_PLAN_2026-08-26.md>) | 🧭 작업 계획서 — 2026-08-26 |
+| [ask_lead_2026-08-28.md](<archive/meetings/ask_lead_2026-08-28.md>) | 🙋 리드 확인 요청 — ETF 검토 완료 보고 + 확답 필요 4건 (이병철, 2026-08-28) |
+| [ask_lead_2026-08-31.md](<archive/meetings/ask_lead_2026-08-31.md>) | 🙋 리드 확인 요청 — ETF 미해결 6건 (이병철, 2026-08-31) |
+| [meeting_2026-08-29.md](<archive/meetings/meeting_2026-08-29.md>) | 🗣 회의 기록 — 2026-08-29 (온라인) |
+| [meeting_agenda_2026-08-26.md](<archive/meetings/meeting_agenda_2026-08-26.md>) | 🗳️ 회의 안건 — 2026-08-26 (D-11) · HCX 플래너 연결 · 제안서 온톨로지 설계 절 |
+| [workshop_agenda_2026-08-18.md](<archive/meetings/workshop_agenda_2026-08-18.md>) | 🗳️ 워크샵 안건 통합 — 2026-08-18 기준 |
+| [클로드정리_2026-08-30.md](<archive/meetings/클로드정리_2026-08-30.md>) | 🔁 클로드 정리 — 2026-08-29 ~ 08-30 (채권 담당 seohyun) |
 
 ## 11. 선행연구·설계 스펙
 
@@ -472,57 +541,57 @@
 
 주요 문서를 한 폴더에 모아 둔 스냅샷입니다. 35개 중 8개만 원본과 동일하고 26개는 원본과 내용이 다르므로, 최신 내용은 각 원본 위치의 문서를 기준으로 봅니다.
 
-**`핵심문서모음/`**
+**`archive/핵심문서모음/`**
 
 | 문서 | 제목 |
 |---|---|
-| [01_프로젝트총괄_PROJECT.md](<핵심문서모음/01_프로젝트총괄_PROJECT.md>) | 🤖 금융상품 AI Agent 구축 프로젝트 (`PROJECT.md`) |
-| [02_최신인수인계_HANDOFF_2026-08-27.md](<핵심문서모음/02_최신인수인계_HANDOFF_2026-08-27.md>) | 🤝 세션 인수인계 — 2026-08-27 (챗봇 가동 · 브랜치 통합 · 서버 실배포) |
-| [03_주최QNA확정_QNA_REVIEW_2026-08-25.md](<핵심문서모음/03_주최QNA확정_QNA_REVIEW_2026-08-25.md>) | 📮 주최 Q&A 검토 — 2026-08-25 |
-| [04_데이터2차변화_DATA_V2_impact.md](<핵심문서모음/04_데이터2차변화_DATA_V2_impact.md>) | 📦 2차 배포 데이터(2026-08-24) 분석 — 우리 프로젝트에 미치는 영향 |
-| [05_데이터가이드_DATA_GUIDE.md](<핵심문서모음/05_데이터가이드_DATA_GUIDE.md>) | 📁 `data/` · `1.금융상품/` — 데이터 설명서 |
-| [06_외부데이터카탈로그_EXTERNAL_DATA.md](<핵심문서모음/06_외부데이터카탈로그_EXTERNAL_DATA.md>) | 📦 외부 수집 데이터 카탈로그 — 2026-08-20 기준 |
-| [07_팀워크플로우_TEAM_WORKFLOW.md](<핵심문서모음/07_팀워크플로우_TEAM_WORKFLOW.md>) | 👥 팀 실험 → 수정 → 반영 (팀원용) |
-| [08_실험루프_EXPERIMENT_LOOP.md](<핵심문서모음/08_실험루프_EXPERIMENT_LOOP.md>) | 🔁 실험 루프 — 챗봇으로 관찰하고 온톨로지를 고친다 |
-| [09_배포체크리스트_DEPLOY_CHECKLIST.md](<핵심문서모음/09_배포체크리스트_DEPLOY_CHECKLIST.md>) | ☀️ 8/16 아침 — 배포 작업 체크리스트 |
-| [10_공모펀드검토기록_2026-08-28.md](<핵심문서모음/10_공모펀드검토기록_2026-08-28.md>) | 📝 공모펀드 검토 작업 기록 — 2026-08-28 (에이전트 동반 검토 · 블록 ①: 식별자 계열) |
-| [README.md](<핵심문서모음/README.md>) | 📚 미래에셋 금융상품 AI Agent 프로젝트 핵심 문서 모음 |
+| [01_프로젝트총괄_PROJECT.md](<archive/핵심문서모음/01_프로젝트총괄_PROJECT.md>) | 🤖 금융상품 AI Agent 구축 프로젝트 (`PROJECT.md`) |
+| [02_최신인수인계_HANDOFF_2026-08-27.md](<archive/핵심문서모음/02_최신인수인계_HANDOFF_2026-08-27.md>) | 🤝 세션 인수인계 — 2026-08-27 (챗봇 가동 · 브랜치 통합 · 서버 실배포) |
+| [03_주최QNA확정_QNA_REVIEW_2026-08-25.md](<archive/핵심문서모음/03_주최QNA확정_QNA_REVIEW_2026-08-25.md>) | 📮 주최 Q&A 검토 — 2026-08-25 |
+| [04_데이터2차변화_DATA_V2_impact.md](<archive/핵심문서모음/04_데이터2차변화_DATA_V2_impact.md>) | 📦 2차 배포 데이터(2026-08-24) 분석 — 우리 프로젝트에 미치는 영향 |
+| [05_데이터가이드_DATA_GUIDE.md](<archive/핵심문서모음/05_데이터가이드_DATA_GUIDE.md>) | 📁 `data/` · `1.금융상품/` — 데이터 설명서 |
+| [06_외부데이터카탈로그_EXTERNAL_DATA.md](<archive/핵심문서모음/06_외부데이터카탈로그_EXTERNAL_DATA.md>) | 📦 외부 수집 데이터 카탈로그 — 2026-08-20 기준 |
+| [07_팀워크플로우_TEAM_WORKFLOW.md](<archive/핵심문서모음/07_팀워크플로우_TEAM_WORKFLOW.md>) | 👥 팀 실험 → 수정 → 반영 (팀원용) |
+| [08_실험루프_EXPERIMENT_LOOP.md](<archive/핵심문서모음/08_실험루프_EXPERIMENT_LOOP.md>) | 🔁 실험 루프 — 챗봇으로 관찰하고 온톨로지를 고친다 |
+| [09_배포체크리스트_DEPLOY_CHECKLIST.md](<archive/핵심문서모음/09_배포체크리스트_DEPLOY_CHECKLIST.md>) | ☀️ 8/16 아침 — 배포 작업 체크리스트 |
+| [10_공모펀드검토기록_2026-08-28.md](<archive/핵심문서모음/10_공모펀드검토기록_2026-08-28.md>) | 📝 공모펀드 검토 작업 기록 — 2026-08-28 (에이전트 동반 검토 · 블록 ①: 식별자 계열) |
+| [README.md](<archive/핵심문서모음/README.md>) | 📚 미래에셋 금융상품 AI Agent 프로젝트 핵심 문서 모음 |
 
-**`핵심문서모음/11_검토채움표_review_2026-08-26/`**
-
-| 문서 | 제목 |
-|---|---|
-| [A_정합성.md](<핵심문서모음/11_검토채움표_review_2026-08-26/A_정합성.md>) | A. 데이터 정합성 |
-| [B_피처의미.md](<핵심문서모음/11_검토채움표_review_2026-08-26/B_피처의미.md>) | B. 피처 의미 |
-| [C_결측의미.md](<핵심문서모음/11_검토채움표_review_2026-08-26/C_결측의미.md>) | C. 결측치 의미 |
-| [D_온톨로지관계.md](<핵심문서모음/11_검토채움표_review_2026-08-26/D_온톨로지관계.md>) | D. 온톨로지 관계 |
-| [E_지식그래프.md](<핵심문서모음/11_검토채움표_review_2026-08-26/E_지식그래프.md>) | E. 지식그래프 |
-| [README.md](<핵심문서모음/11_검토채움표_review_2026-08-26/README.md>) | 🔎 온톨로지 · 지식그래프 검토 채움표 |
-| [작성법.md](<핵심문서모음/11_검토채움표_review_2026-08-26/작성법.md>) | ✍️ 검토 채움표 작성법 |
-
-**`핵심문서모음/12_데이터사전_data_dictionary/`**
+**`archive/핵심문서모음/11_검토채움표_review_2026-08-26/`**
 
 | 문서 | 제목 |
 |---|---|
-| [README.md](<핵심문서모음/12_데이터사전_data_dictionary/README.md>) | 📖 데이터 사전 — 도메인별 피처·의미·결측 판정 |
-| [bonds.md](<핵심문서모음/12_데이터사전_data_dictionary/bonds.md>) | 📖 데이터 사전 — 국내채권 |
-| [etf.md](<핵심문서모음/12_데이터사전_data_dictionary/etf.md>) | 📖 데이터 사전 — ETF (국내·해외) |
-| [funds.md](<핵심문서모음/12_데이터사전_data_dictionary/funds.md>) | 📖 데이터 사전 — 공모펀드 |
+| [A_정합성.md](<archive/핵심문서모음/11_검토채움표_review_2026-08-26/A_정합성.md>) | A. 데이터 정합성 |
+| [B_피처의미.md](<archive/핵심문서모음/11_검토채움표_review_2026-08-26/B_피처의미.md>) | B. 피처 의미 |
+| [C_결측의미.md](<archive/핵심문서모음/11_검토채움표_review_2026-08-26/C_결측의미.md>) | C. 결측치 의미 |
+| [D_온톨로지관계.md](<archive/핵심문서모음/11_검토채움표_review_2026-08-26/D_온톨로지관계.md>) | D. 온톨로지 관계 |
+| [E_지식그래프.md](<archive/핵심문서모음/11_검토채움표_review_2026-08-26/E_지식그래프.md>) | E. 지식그래프 |
+| [README.md](<archive/핵심문서모음/11_검토채움표_review_2026-08-26/README.md>) | 🔎 온톨로지 · 지식그래프 검토 채움표 |
+| [작성법.md](<archive/핵심문서모음/11_검토채움표_review_2026-08-26/작성법.md>) | ✍️ 검토 채움표 작성법 |
 
-**`핵심문서모음/13_온톨로지규칙_ontology_rules/`**
+**`archive/핵심문서모음/12_데이터사전_data_dictionary/`**
 
 | 문서 | 제목 |
 |---|---|
-| [01_naming.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/01_naming.md>) | 규칙 1. 지칭 정리 — 같은 것을 같다고 부르기 |
-| [02_missing.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/02_missing.md>) | 규칙 2. 결측 방어 — 비어 있음의 뜻을 가른다 |
-| [03_external.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/03_external.md>) | 규칙 3. 외부 데이터 병합 — 마스터를 고치지 않고 옆에 붙인다 |
-| [04_grain.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/04_grain.md>) | 규칙 4. 행 단위(grain) — `COUNT(*)` 는 종목 수가 아니다 |
-| [05_population.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/05_population.md>) | 규칙 5. 기본 모수 — 말하지 않은 조건을 고정한다 |
-| [06_derivation.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/06_derivation.md>) | 규칙 6. 파생·유도 — 없는 축을 규칙으로 만든다 |
-| [07_disjoint.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/07_disjoint.md>) | 규칙 7. 배타·분리 — 한 축에 놓으면 안 되는 것들 |
-| [08_unit.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/08_unit.md>) | 규칙 8. 단위·스케일 — 같은 이름, 다른 눈금 |
-| [09_forbid.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/09_forbid.md>) | 규칙 9. 금지 규칙 — 이 컬럼으로는 답하지 마라 |
-| [10_absent.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/10_absent.md>) | 규칙 10. 부재 선언 — 컬럼이 없다는 사실도 지식이다 |
-| [11_hierarchy.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/11_hierarchy.md>) | 규칙 11. 계층 — ‘미국’ 질의가 ‘북미’ 를 포함하는가 |
-| [12_asof.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/12_asof.md>) | 규칙 12. 기준일·시점 — 언제 기준의 사실인가 |
-| [README.md](<핵심문서모음/13_온톨로지규칙_ontology_rules/README.md>) | 🧱 온톨로지 규칙 12종 — 규칙별 검토 문서 |
+| [README.md](<archive/핵심문서모음/12_데이터사전_data_dictionary/README.md>) | 📖 데이터 사전 — 도메인별 피처·의미·결측 판정 |
+| [bonds.md](<archive/핵심문서모음/12_데이터사전_data_dictionary/bonds.md>) | 📖 데이터 사전 — 국내채권 |
+| [etf.md](<archive/핵심문서모음/12_데이터사전_data_dictionary/etf.md>) | 📖 데이터 사전 — ETF (국내·해외) |
+| [funds.md](<archive/핵심문서모음/12_데이터사전_data_dictionary/funds.md>) | 📖 데이터 사전 — 공모펀드 |
+
+**`archive/핵심문서모음/13_온톨로지규칙_ontology_rules/`**
+
+| 문서 | 제목 |
+|---|---|
+| [01_naming.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/01_naming.md>) | 규칙 1. 지칭 정리 — 같은 것을 같다고 부르기 |
+| [02_missing.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/02_missing.md>) | 규칙 2. 결측 방어 — 비어 있음의 뜻을 가른다 |
+| [03_external.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/03_external.md>) | 규칙 3. 외부 데이터 병합 — 마스터를 고치지 않고 옆에 붙인다 |
+| [04_grain.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/04_grain.md>) | 규칙 4. 행 단위(grain) — `COUNT(*)` 는 종목 수가 아니다 |
+| [05_population.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/05_population.md>) | 규칙 5. 기본 모수 — 말하지 않은 조건을 고정한다 |
+| [06_derivation.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/06_derivation.md>) | 규칙 6. 파생·유도 — 없는 축을 규칙으로 만든다 |
+| [07_disjoint.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/07_disjoint.md>) | 규칙 7. 배타·분리 — 한 축에 놓으면 안 되는 것들 |
+| [08_unit.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/08_unit.md>) | 규칙 8. 단위·스케일 — 같은 이름, 다른 눈금 |
+| [09_forbid.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/09_forbid.md>) | 규칙 9. 금지 규칙 — 이 컬럼으로는 답하지 마라 |
+| [10_absent.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/10_absent.md>) | 규칙 10. 부재 선언 — 컬럼이 없다는 사실도 지식이다 |
+| [11_hierarchy.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/11_hierarchy.md>) | 규칙 11. 계층 — ‘미국’ 질의가 ‘북미’ 를 포함하는가 |
+| [12_asof.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/12_asof.md>) | 규칙 12. 기준일·시점 — 언제 기준의 사실인가 |
+| [README.md](<archive/핵심문서모음/13_온톨로지규칙_ontology_rules/README.md>) | 🧱 온톨로지 규칙 12종 — 규칙별 검토 문서 |

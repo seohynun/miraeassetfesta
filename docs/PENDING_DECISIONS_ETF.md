@@ -75,7 +75,7 @@ KR7261140008  TIGER 우선주
 
 ---
 
-## B. 리드 확답 대기 (`docs/ask_lead_2026-08-28.md`)
+## B. 리드 확답 대기 (`docs/archive/meetings/ask_lead_2026-08-28.md`)
 
 | # | 사안 | 상태 |
 | :-: | :-- | :-- |
@@ -177,7 +177,7 @@ KODEX 차이나AI반도체TOP10 10.41% · TIGER 차이나반도체FACTSET 8.78% 
 | :-: | :-- | :-- |
 | D-1 | `.agents/rules/miraeasset-rules.md` §2 → 8/24 기준 갱신 | 리드 (C-1 확정 후) |
 | D-2 | `meeting_agenda` §4-4 "7/11 확정" 되살리기 | 서현 (C-1 확정 후) |
-| D-3 | `axis_mismatch.md` §4 주최 문의 3건 **철회 표시** | ✅ **완료 2026-08-31** — 주최가 코드·기호 정의를 답하지 않기로 확정(디스코드 15:02). 컬럼 정본으로 종결 · [`qna_discord_2026-08-31.md`](qna_discord_2026-08-31.md) §1-1 |
+| D-3 | `axis_mismatch.md` §4 주최 문의 3건 **철회 표시** | ✅ **완료 2026-08-31** — 주최가 코드·기호 정의를 답하지 않기로 확정(디스코드 15:02). 컬럼 정본으로 종결 · [`qna_discord_2026-08-31.md`](archive/meetings/qna_discord_2026-08-31.md) §1-1 |
 
 ---
 

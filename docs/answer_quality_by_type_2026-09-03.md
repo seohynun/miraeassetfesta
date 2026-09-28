@@ -186,7 +186,7 @@ gold:  153개(클래스 293개)   ← 질문이 "포함하면" 이라고 명시�
 
 ## 5. 참고
 
-- 라운드 궤적·루프 구조: `docs/HANDOFF_2026-09-03_qa_loop.md`
+- 라운드 궤적·루프 구조: `docs/archive/handoff/HANDOFF_2026-09-03_qa_loop.md`
 - 판정 보류 8문항: `docs/gold_defects_2026-09-03.md`
-- 15R 채점 원문: `docs/recheck_2026-09-03_round15.md` · `docs/kg_structure_probe_round9_2026-09-03.md` · `docs/gold_probe_2026-09-03_g5.md`
+- 15R 채점 원문: `docs/archive/rounds/recheck_2026-09-03_round15.md` · `docs/archive/rounds/kg_structure_probe_round9_2026-09-03.md` · `docs/archive/rounds/gold_probe_2026-09-03_g5.md`
 - 문항별 답변 변천사: `eval/render_probe_md.py` 로 생성(명령은 인계 문서 §3)

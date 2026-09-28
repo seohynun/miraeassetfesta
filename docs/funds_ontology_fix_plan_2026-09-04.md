@@ -1,6 +1,6 @@
 # 공모펀드 78문항 → 최종 온톨로지 수정 계획 — 2026-09-04
 
-> 입력 `docs/funds_test_result_2026-09-04.md` (✅48 · 🟡14 · ❌16) · `docs/funds_domain_axes_2026-09-04.md`
+> 입력 `docs/funds_test_result_2026-09-04.md` (✅48 · 🟡14 · ❌16) · `docs/archive/rounds/funds_domain_axes_2026-09-04.md`
 > 대상 `ontology/enums/public_funds.yaml` · `ontology/enums/_refusal.yaml`
 > 산출물 `ontology/fund_pub.ttl` 은 생성물 — 고칠 것은 yaml 이고 `python scripts/build_ontology.py` 로 재사영한다
 > 모수: 판매중·공모 클래스 8,969 · 펀드 3,040 · 기준일 2026-08-21

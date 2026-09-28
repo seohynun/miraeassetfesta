@@ -1,7 +1,7 @@
 # 16R 수리 계획 — 간섭 지도 (2026-09-03)
 
-대상: `docs/recheck_2026-09-03_round15.md` §③ · `docs/kg_structure_probe_round9_2026-09-03.md` §③(20항) ·
-`docs/gold_probe_2026-09-03_g5.md` §③(18항).
+대상: `docs/archive/rounds/recheck_2026-09-03_round15.md` §③ · `docs/archive/rounds/kg_structure_probe_round9_2026-09-03.md` §③(20항) ·
+`docs/archive/rounds/gold_probe_2026-09-03_g5.md` §③(18항).
 
 ---
 

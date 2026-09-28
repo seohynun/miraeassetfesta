@@ -1,6 +1,6 @@
 # 채권 QA r1 수리 계획 — 간섭 지도 (에이전트 A · 2026-09-06 · 브랜치 qa/bonds-r1)
 
-> 지시서: `docs/bonds_2026-09-06_round1.md` §③(가) BA~BP(🔴) · BM~BO(🟡). 실측 원본 `eval/probe_bonds_2026-09-06_r1.json`.
+> 지시서: `docs/archive/rounds/bonds_2026-09-06_round1.md` §③(가) BA~BP(🔴) · BM~BO(🟡). 실측 원본 `eval/probe_bonds_2026-09-06_r1.json`.
 > 기준 HEAD: `9afb3aa`(a3bd4f0 F1~F8 · 6a5bb63 라운드 32 포함). 서버는 `db17e07`.
 > 재현 방법(HCX 0회): 서버 think_trace 의 `[Plan] SQL 생성` 원문(재생성분은 2차 SQL)을 가짜 플래너로 `answer_question` 에 재투입.
 > 스크립트는 세션 스크래치(`replay_all.py`)에 있고 87문항 기준선 `base.json` 을 떠 두었다 — 수리 뒤 같은 스크립트로 ✅ 51문항의 답변·SQL 을 대조한다.
